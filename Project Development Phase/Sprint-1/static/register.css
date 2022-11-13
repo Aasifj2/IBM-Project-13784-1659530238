@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.register {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    position: relative;
+    left: 60%;
+}
+
+.register h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.register form {
+    font-size: 15px;
+}
+
+.register form .form-group {
+    margin-bottom: 12px;
+}
+
+.register form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.register form select[id="blood_group"] {
+    width: 320px;
+}
+
+.img {
+    content: url('https://img.freepik.com/free-vector/man-mask-protecting-from-girlfriend-rash_74855-6563.jpg?w=1380&t=st=1668275485~exp=1668276085~hmac=526faab8ead8e746f8f9d6b24cfb57c235b22b8fdd8a64ef9e1375baa89b4c3a');
+    width: 750px;
+    height: 500px;
+    left: 10%;
+    position: absolute;
+}
