@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    width:fit-content;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    left: 60%;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+
+.img {
+    content: url('https://img.freepik.com/free-vector/man-mask-protecting-from-girlfriend-rash_74855-6563.jpg?w=1380&t=st=1668275485~exp=1668276085~hmac=526faab8ead8e746f8f9d6b24cfb57c235b22b8fdd8a64ef9e1375baa89b4c3a');
+    width: 750px;
+    height: 500px;
+    left: 10%;
+    position: absolute;
+}
