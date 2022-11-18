@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI-Based Localization And Classification Of Skin Disease With Erythema</title>
+    <link rel="stylesheet" type="text/css" href="/static/upload_image.css">
+  </head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <body  >
+    <div id="body">
+      <p id="title">AI-Based Localization And Classification Of Skin Disease With Erythema</p>
+      <br>
+      <p id="title">DASHBOARD</p>
+      <p class="desc" id="subtitle">Upload your image and get the Classification with Localization</p>
+      <div style="  display: table;margin: 0 auto;">
+
+       
+        <iframe width="315" height="177.87" src="https://www.youtube.com/embed/LJV6753jjgk" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+        ></iframe>
+   
+
+      </div>
+       </div>
+    <div id="container">
+    <form action="/uploader" method="POST" enctype="multipart/form-data">
+
+
+      <main class="main_full">
+        <div class="container">
+          <div class="panel">
+            <div class="button_outer">
+              <div class="btn_upload">
+                <input type="file" id="upload_file" name="file">
+                Upload your image
+              </div>
+              <div class="processing_bar"></div>
+              <div class="success_box"></div>
+            </div>
+          </div>
+          <div class="error_msg"></div>
+          <div class="uploaded_file_view" id="uploaded_view">
+            <span class="file_remove">X</span>
+          </div>
+        </div>
+      </main>
+    </div>
+
+
+      <button id="submit" class="custom-btn btn-6" type="submit"><span>Submit</span></button>
+      
+      <p class="desc" id="subtitle">We've used YOLO model. </p>
+  
+      <!-- <p class="desc"> You can find the source code for the AI model and web app <a href="https://github.com/sushilkhadkaanon/pneumonia_dl_flask">here</a></p>
+ -->
+
+
+
+  
+    </form>
+
+
+
+    <script type="text/javascript" src="/static/upload_image.js"></script>
+  
+  </div>
+
+  </body>
+
+</html>
+
